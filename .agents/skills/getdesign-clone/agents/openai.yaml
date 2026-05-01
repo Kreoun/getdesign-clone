@@ -1,0 +1,6 @@
+interface:
+  display_name: "Getdesign Clone"
+  short_description: "Repo-specific patterns and workflows for getdesign-clone"
+  default_prompt: "Use the getdesign-clone repo skill to follow existing architecture, testing, and workflow conventions."
+policy:
+  allow_implicit_invocation: true
