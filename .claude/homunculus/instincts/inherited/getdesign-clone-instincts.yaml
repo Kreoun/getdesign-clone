@@ -1,0 +1,297 @@
+# Instincts generated from https://github.com/Kreoun/getdesign-clone
+# Generated: 2026-05-01T06:16:11.054Z
+# Version: 2.0
+# NOTE: This file supplements (does not replace) any existing curated instincts.
+# High-confidence manually curated instincts should be preserved alongside these.
+
+---
+id: getdesign-clone-commit-length
+trigger: "when writing a commit message"
+confidence: 0.6
+domain: git
+source: repo-analysis
+source_repo: https://github.com/Kreoun/getdesign-clone
+---
+
+# Getdesign Clone Commit Length
+
+## Action
+
+Write moderate-length commit messages (~79 characters)
+
+## Evidence
+
+- Average commit message length: 79 chars
+- Based on 1 commits
+
+---
+id: getdesign-clone-naming-files
+trigger: "when creating a new file"
+confidence: 0.8
+domain: code-style
+source: repo-analysis
+source_repo: https://github.com/Kreoun/getdesign-clone
+---
+
+# Getdesign Clone Naming Files
+
+## Action
+
+Use camelCase naming convention
+
+## Evidence
+
+- Analyzed file naming patterns in repository
+- Dominant pattern: camelCase
+
+---
+id: getdesign-clone-export-style
+trigger: "when exporting from a module"
+confidence: 0.7
+domain: code-style
+source: repo-analysis
+source_repo: https://github.com/Kreoun/getdesign-clone
+---
+
+# Getdesign Clone Export Style
+
+## Action
+
+Prefer default exports
+
+## Evidence
+
+- Export pattern analysis
+- Dominant style: default
+
+---
+id: getdesign-clone-arch-type-based
+trigger: "when adding new code"
+confidence: 0.8
+domain: architecture
+source: repo-analysis
+source_repo: https://github.com/Kreoun/getdesign-clone
+---
+
+# Getdesign Clone Arch Type Based
+
+## Action
+
+Place code in the appropriate type folder (components/, services/, utils/, etc.)
+
+## Evidence
+
+- Type-based module organization detected
+- Folders: app, components, data
+
+---
+id: getdesign-clone-test-separate
+trigger: "when writing tests"
+confidence: 0.8
+domain: testing
+source: repo-analysis
+source_repo: https://github.com/Kreoun/getdesign-clone
+---
+
+# Getdesign Clone Test Separate
+
+## Action
+
+Place tests in the tests/ or __tests__/ directory, mirroring src structure
+
+## Evidence
+
+- Separate test directory pattern detected
+- Tests live in dedicated test folders
+
+---
+id: getdesign-clone-instinct-file-naming
+trigger: "When creating a new file in the codebase"
+confidence: 0.8
+domain: code-style
+source: repo-analysis
+source_repo: Kreoun/getdesign-clone
+---
+
+# Getdesign Clone Instinct File Naming
+
+## Action
+
+Name the file using camelCase convention
+
+## Evidence
+
+- Pattern in namingConventions.files
+
+---
+id: getdesign-clone-instinct-function-naming
+trigger: "When defining a new function"
+confidence: 0.9
+domain: code-style
+source: repo-analysis
+source_repo: Kreoun/getdesign-clone
+---
+
+# Getdesign Clone Instinct Function Naming
+
+## Action
+
+Use camelCase for the function name
+
+## Evidence
+
+- Pattern in namingConventions.functions
+
+---
+id: getdesign-clone-instinct-class-naming
+trigger: "When defining a new class"
+confidence: 0.9
+domain: code-style
+source: repo-analysis
+source_repo: Kreoun/getdesign-clone
+---
+
+# Getdesign Clone Instinct Class Naming
+
+## Action
+
+Use PascalCase for the class name
+
+## Evidence
+
+- Pattern in namingConventions.classes
+
+---
+id: getdesign-clone-instinct-constant-naming
+trigger: "When declaring a constant"
+confidence: 0.9
+domain: code-style
+source: repo-analysis
+source_repo: Kreoun/getdesign-clone
+---
+
+# Getdesign Clone Instinct Constant Naming
+
+## Action
+
+Use SCREAMING_SNAKE_CASE for the constant name
+
+## Evidence
+
+- Pattern in namingConventions.constants
+
+---
+id: getdesign-clone-instinct-import-style
+trigger: "When importing modules"
+confidence: 0.7
+domain: code-style
+source: repo-analysis
+source_repo: Kreoun/getdesign-clone
+---
+
+# Getdesign Clone Instinct Import Style
+
+## Action
+
+Use a mixed style for imports (both named and default as appropriate)
+
+## Evidence
+
+- Pattern in importStyle
+
+---
+id: getdesign-clone-instinct-export-style
+trigger: "When exporting modules or components"
+confidence: 0.8
+domain: code-style
+source: repo-analysis
+source_repo: Kreoun/getdesign-clone
+---
+
+# Getdesign Clone Instinct Export Style
+
+## Action
+
+Prefer default exports
+
+## Evidence
+
+- Pattern in exportStyle
+
+---
+id: getdesign-clone-instinct-error-handling
+trigger: "When handling errors in code"
+confidence: 0.8
+domain: code-style
+source: repo-analysis
+source_repo: Kreoun/getdesign-clone
+---
+
+# Getdesign Clone Instinct Error Handling
+
+## Action
+
+Use try-catch blocks for error handling
+
+## Evidence
+
+- Pattern in errorHandling.style
+
+---
+id: getdesign-clone-instinct-git-commit-format
+trigger: "When writing a git commit message"
+confidence: 0.7
+domain: git
+source: repo-analysis
+source_repo: Kreoun/getdesign-clone
+---
+
+# Getdesign Clone Instinct Git Commit Format
+
+## Action
+
+Use a freeform commit message without a specific prefix, typically concise and descriptive
+
+## Evidence
+
+- Pattern in commits.type
+- Example: 'Initial build: getdesign.md clone with Next.js, Tailwind CSS, 70 design systems'
+
+---
+id: getdesign-clone-instinct-git-commit-length
+trigger: "When composing a commit message"
+confidence: 0.6
+domain: git
+source: repo-analysis
+source_repo: Kreoun/getdesign-clone
+---
+
+# Getdesign Clone Instinct Git Commit Length
+
+## Action
+
+Keep the commit message concise, around 79 characters on average
+
+## Evidence
+
+- Pattern in commits.averageLength
+
+---
+id: getdesign-clone-instinct-test-location
+trigger: "When adding or organizing tests"
+confidence: 0.8
+domain: testing
+source: repo-analysis
+source_repo: Kreoun/getdesign-clone
+---
+
+# Getdesign Clone Instinct Test Location
+
+## Action
+
+Place tests in a separate location from source files
+
+## Evidence
+
+- Pattern in architecture.testLocation
+
